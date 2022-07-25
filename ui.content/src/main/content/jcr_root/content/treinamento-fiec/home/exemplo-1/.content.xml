@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-07-25T01:59:42.510-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/treinamento-fiec/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="exemplo-produto-1"
+        sling:resourceType="treinamento-fiec/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="treinamento-fiec/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="treinamento-fiec/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="treinamento-fiec/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="treinamento-fiec/components/container"
+                    layout="responsiveGrid">
+                    <title
+                        jcr:created="{Date}2022-07-25T00:30:59.252-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-25T00:30:59.252-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="treinamento-fiec/components/title"/>
+                    <componentes_base
+                        jcr:created="{Date}2022-07-25T00:18:26.142-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-25T01:10:07.240-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Titulo 1"
+                        sling:resourceType="treinamento-fiec/components/componentes-treinamento/componentes-base"
+                        type="h1"/>
+                    <componente_base_titu
+                        jcr:created="{Date}2022-07-25T01:25:31.333-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-25T01:25:31.333-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="treinamento-fiec/components/componentes-treinamento/base/componente-base-titulo"/>
+                    <titulo
+                        jcr:created="{Date}2022-07-25T01:38:29.916-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-25T01:49:06.464-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Este é o Titulo Padrão do Produto 1"
+                        sling:resourceType="treinamento-fiec/components/componentes-treinamento/produto-1/titulo"
+                        type="h1"/>
+                    <descricao_produto
+                        jcr:created="{Date}2022-07-25T01:41:59.329-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-25T01:50:24.734-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Este é a descrição Padrão do produto 1"
+                        sling:resourceType="treinamento-fiec/components/componentes-treinamento/produto-1/descricao-produto"
+                        type="h4"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

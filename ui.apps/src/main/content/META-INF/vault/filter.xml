@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/treinamento-fiec/clientlibs"/>
+    <filter root="/apps/treinamento-fiec/components"/>
+    <filter root="/apps/treinamento-fiec/i18n"/>
+</workspaceFilter>

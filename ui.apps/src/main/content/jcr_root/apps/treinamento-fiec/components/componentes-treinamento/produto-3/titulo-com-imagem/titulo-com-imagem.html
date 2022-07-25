@@ -1,0 +1,28 @@
+<div 
+	style="display: flex; flex-direction: column; align-items: center;"
+	data-sly-use.title="com.adobe.cq.wcm.core.components.models.Title"
+     data-sly-use.component="com.adobe.cq.wcm.core.components.models.Component"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.text="${title.text}"
+     data-cmp-data-layer="${title.data.json}"
+     id="${component.id}"
+     class="cmp-title">
+    <h1 class="cmp-title__text" data-sly-element="${title.type}"><a
+            data-sly-unwrap="${!title.linkURL || title.linkDisabled}" class="cmp-title__link"
+            href="${title.linkURL}"
+            aria-label="${title.link.htmlAttributes['aria-label']}"
+            title="${title.link.htmlAttributes['title']}"
+            data-cmp-clickable="${title.data ? true : false}">${text}</a></h1>
+
+	<div style="width: 300px; display: flex; justify-content: center;">
+		<sly data-sly-resource="${'./descricao' @ resourceType='treinamento-fiec/components/componentes-treinamento/produto-3/descricao-produto'}"/>
+	</div>
+
+	<div style="width: 120px;">
+		<sly data-sly-resource="${'./imagem' @ resourceType='treinamento-fiec/components/image'}"/>
+	</div>
+
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!text, classAppend='cmp-title'}"></sly>
+
+

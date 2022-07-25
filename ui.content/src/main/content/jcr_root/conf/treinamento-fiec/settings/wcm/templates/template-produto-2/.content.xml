@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2022-07-25T02:36:50.277-03:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/treinamento-fiec/settings/wcm/template-types/page"
+        jcr:description="Este template é para o produto 2"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Template Produto 2"
+        status="enabled"/>
+</jcr:root>

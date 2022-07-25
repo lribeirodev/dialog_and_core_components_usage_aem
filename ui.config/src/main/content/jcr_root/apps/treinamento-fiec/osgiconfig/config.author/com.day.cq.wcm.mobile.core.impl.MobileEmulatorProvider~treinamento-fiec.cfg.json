@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "treinamento-fiec/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}
