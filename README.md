@@ -36,7 +36,7 @@ ui.content\src\main\content\jcr_root\content\treinamento-fiec\home\exemplo-2
 ui.content\src\main\content\jcr_root\content\treinamento-fiec\home\exemplo-3
 
 
-## Para buildar o projeto e subir o projeto para a instância
+## Para buildar e subir o projeto para a instância
 
 mvn clean install -Padobe-public -PautoInstallPackage -PautoInstallBundle
 
